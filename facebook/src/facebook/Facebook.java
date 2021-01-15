@@ -24,6 +24,7 @@ public class Facebook {
 	driver.findElement(By.id("month")).sendKeys("Jul",Keys.TAB);
 	driver.findElement(By.id("year")).sendKeys("1995",Keys.TAB);
 	driver.findElement(By.id("u_1_5")).click();
+	System.out.println("Successfully executed");
 	//driver.findElement(By.xpath(".//*[@id='u_1_5']")).click();
 	Thread.sleep(2000);
 	driver.findElement(By.id("u_1_s")).click();
